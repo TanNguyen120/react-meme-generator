@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import BannerHeader from './components/bannerHeader';
 import FormInput from './components/formInput';
@@ -10,13 +10,11 @@ function App() {
     alt: 'Meme Face',
     title: 'Meme Generator',
     link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-  }
-
+  };
   return (
     <div className="App">
       <BannerHeader {...data} />
       <FormInput />
-      <ShowMeme />
     </div>
   );
 }

@@ -53,5 +53,13 @@
 }
 
 .show-meme {
-  margin: 10px;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+}
+
+.show-meme > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
