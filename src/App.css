@@ -10,6 +10,7 @@
   width: 100px;
   height: 100px;
   margin-right: 20px;
+  color: #e4e731;
 }
 
 .banner-header h1 {
@@ -25,4 +26,32 @@
   font-size: 30px;
   margin-left: auto;
   margin-right: 0;
+}
+
+.form-input {
+  display: grid;
+  grid-template: 50px 50px / 1fr 1fr;
+  gap: 10px;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+.form-input > button {
+  grid-column: 1/-1;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  background-color: #e4e731;
+  color: black;
+}
+
+.form-input > input {
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+}
+
+.show-meme {
+  margin: 10px;
 }
