@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import BannerHeader from './components/bannerHeader';
 
 function App() {
+  const data = {
+    image: './memeFace.png',
+    alt: 'Meme Face',
+    title: 'Meme Generator',
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BannerHeader {...data} />
     </div>
   );
 }
